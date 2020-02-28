@@ -45,8 +45,19 @@ services:
         condition: service_started
 
   cm:
-    image: ${REGISTRY}sitecore-xm-sxa-jss-cm:${SITECORE_VERSION}-windowsservercore-${WINDOWSSERVERCORE_VERSION}
+    build:
+      context: .\src\Environment\Website
+      dockerfile: Dockerfile
+      args:
+        REGISTRY: ${REGISTRY}
+        WINDOWSSERVERCORE_VERSION: ${WINDOWSSERVERCORE_VERSION}
+        SITECORE_VERSION: ${SITECORE_VERSION}
     entrypoint: powershell.exe -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"
+    volumes:
+      - .\data\cm:C:\inetpub\wwwroot\App_Data\logs
+      - C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Remote Debugger:C:\remote_debugger:ro
+      - .\src\Environment\Website\bin\docker:C:\src
+      - .\src:c:\override\in\App_Config\Environment
     ports:
       - "44001:80"
     environment:
