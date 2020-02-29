@@ -4,7 +4,6 @@ Parent: "75c7491c-c7ff-4ab4-a71f-8f37ebd9fb95"
 Template: "6eca12e9-f4d5-4f6e-9c3c-6df716bc593b"
 Path: /sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Media Link/Default/File/$Size
 DB: master
-BranchID: "630530a2-bfbf-4538-8fc0-41f4e5a5a2b8"
 SharedFields:
 - ID: "3a4dd4df-8d32-405f-831a-39f87a550085"
   Hint: Token

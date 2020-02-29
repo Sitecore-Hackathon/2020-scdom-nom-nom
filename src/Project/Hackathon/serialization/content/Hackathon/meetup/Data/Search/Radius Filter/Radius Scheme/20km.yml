@@ -4,7 +4,6 @@ Parent: "c5c594a6-5d1f-465d-bd87-732ea4299fb5"
 Template: "ea45c3ad-8e63-4e2a-bcc0-9e4c06f2aa12"
 Path: /sitecore/content/Hackathon/meetup/Data/Search/Radius Filter/Radius Scheme/20km
 DB: master
-BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
 SharedFields:
 - ID: "4f892959-fde6-4020-8569-2cf934ba412c"
   Hint: Value

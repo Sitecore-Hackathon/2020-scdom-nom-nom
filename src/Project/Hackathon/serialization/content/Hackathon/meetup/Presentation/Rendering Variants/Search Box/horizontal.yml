@@ -4,7 +4,6 @@ Parent: "ed3a7dd9-f194-4ecc-9e02-abda2e1acdb6"
 Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
 Path: /sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Search Box/horizontal
 DB: master
-BranchID: "0d360bbd-4fae-4863-88b9-ae5be82be6f0"
 SharedFields:
 - ID: "e1d5adba-8348-4127-9bb6-455936653839"
   Hint: CssClass

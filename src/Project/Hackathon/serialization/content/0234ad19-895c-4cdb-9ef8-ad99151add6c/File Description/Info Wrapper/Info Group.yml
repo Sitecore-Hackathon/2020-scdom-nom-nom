@@ -4,7 +4,6 @@ Parent: "809dac37-936c-46a3-9a4c-6e8d30b4e918"
 Template: "aca5c9a3-cda0-49b6-893f-1d4a7cb595b0"
 Path: "/sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description/Info Wrapper/Info Group"
 DB: master
-BranchID: "630530a2-bfbf-4538-8fc0-41f4e5a5a2b8"
 SharedFields:
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder

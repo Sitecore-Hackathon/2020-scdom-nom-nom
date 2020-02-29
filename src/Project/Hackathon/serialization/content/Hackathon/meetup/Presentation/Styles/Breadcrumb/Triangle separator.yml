@@ -4,7 +4,6 @@ Parent: "dcffbaa3-eb55-4700-961b-19b9421d4279"
 Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
 Path: /sitecore/content/Hackathon/meetup/Presentation/Styles/Breadcrumb/Triangle separator
 DB: master
-BranchID: "5edf676a-2fdd-418a-8c56-cb465ee16e20"
 SharedFields:
 - ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
   Hint: Value

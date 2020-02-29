@@ -4,7 +4,6 @@ Parent: "529a1ec3-ba10-47ea-b324-45e3c85a83c3"
 Template: "fcd285da-9ab2-4c8d-b185-5a7487a9ba1b"
 Path: "/sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Media Link/Icon-Name-Date and Download link/File Description/Info Wrapper/Title Group/File 2/Title"
 DB: master
-BranchID: "630530a2-bfbf-4538-8fc0-41f4e5a5a2b8"
 SharedFields:
 - ID: "4753764c-c05a-4623-841b-97f85135241c"
   Hint: FieldName

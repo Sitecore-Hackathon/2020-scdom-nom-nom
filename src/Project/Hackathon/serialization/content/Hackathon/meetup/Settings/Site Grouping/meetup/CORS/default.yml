@@ -4,7 +4,6 @@ Parent: "446e679e-320f-40e5-ba88-cfdf9924b885"
 Template: "5203732f-9512-4ade-8e02-0cb085c10454"
 Path: /sitecore/content/Hackathon/meetup/Settings/Site Grouping/meetup/CORS/default
 DB: master
-BranchID: "f0e39dc1-6a4f-41ed-b0fe-b65bf09a1745"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
