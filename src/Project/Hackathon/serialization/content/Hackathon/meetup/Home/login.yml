@@ -1,0 +1,20 @@
+﻿---
+ID: "fa7b039e-0f36-43e3-a817-e633e0664cdf"
+Parent: "67028d8d-0675-4587-a34b-9be193fe4422"
+Template: "9d9d5e75-2aea-44a7-9241-5840ecc7879a"
+Path: /sitecore/content/Hackathon/meetup/Home/login
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ed0dd7d-5169-41a5-83ac-8990377ce226"
+      Hint: Title
+      Value: login
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T111541Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: login
