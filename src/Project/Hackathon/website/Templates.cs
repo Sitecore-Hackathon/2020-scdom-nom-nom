@@ -59,6 +59,9 @@ namespace ScDom.Project.Hackathon
                 public static readonly SXA.Media.Templates.Image.Fields Image = new SXA.Media.Templates.Image.Fields();
 
                 public static readonly SXA.Events.Templates.CalendarEvent.Fields CalendarEvents = new SXA.Events.Templates.CalendarEvent.Fields();
+
+                public static readonly ID EventStart = SXA.Events.Templates.CalendarEvent.Fields.EventStart;
+
             }
         }
     }
