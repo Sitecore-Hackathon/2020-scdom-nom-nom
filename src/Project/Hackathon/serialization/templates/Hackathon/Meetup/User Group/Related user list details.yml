@@ -1,0 +1,18 @@
+﻿---
+ID: "d9d561c9-53c5-4f5b-835e-de9e2bd05b4a"
+Parent: "399c22af-bbdb-4218-81b0-7d313c5e1848"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Project/Hackathon/Meetup/User Group/Related user list details
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T114557Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

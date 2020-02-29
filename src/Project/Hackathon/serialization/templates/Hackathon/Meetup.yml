@@ -1,0 +1,18 @@
+﻿---
+ID: "bb1f20b5-541a-4861-b932-8aeb5d1836a3"
+Parent: "36bc4cc0-26f9-4b72-926d-8613c54f169e"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Project/Hackathon/Meetup
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T111533Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

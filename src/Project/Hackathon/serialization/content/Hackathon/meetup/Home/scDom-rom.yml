@@ -1,0 +1,33 @@
+﻿---
+ID: "65429fa1-2fd5-47e6-8277-29918fe2bba9"
+Parent: "67028d8d-0675-4587-a34b-9be193fe4422"
+Template: "399c22af-bbdb-4218-81b0-7d313c5e1848"
+Path: "/sitecore/content/Hackathon/meetup/Home/scDom-rom"
+DB: master
+SharedFields:
+- ID: "37b1dd2c-ac94-4281-b9b5-c6437028072a"
+  Hint: CentralPointLongitude
+  Value: 35.051866
+- ID: "a07c174f-60f9-467f-8a05-6f272f22f4ea"
+  Hint: Mode
+  Value: "{3E924E01-D3E5-4E32-B12D-28BEF8262055}"
+- ID: "fcc4f148-2f8a-4310-a898-c38fee380e9e"
+  Hint: CentralPointLatidiute
+  Value: 48.466167
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "00d25759-cc5a-4855-9c5c-2f5605fc7a58"
+      Hint: Content
+      Value: "We are sc-dom-rom user group"
+    - ID: "1ed0dd7d-5169-41a5-83ac-8990377ce226"
+      Hint: Title
+      Value: "scDom-nom-nom"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T115755Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: "scDom-rom"
