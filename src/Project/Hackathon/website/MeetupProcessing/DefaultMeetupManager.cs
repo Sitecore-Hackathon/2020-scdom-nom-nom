@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using ScDom.Project.Hackathon.MeetupProcessing.UserGroups;
 using Sitecore.Analytics.Tracking;
 using Sitecore.Diagnostics;
 using Sitecore.ListManagement.XConnect.Web;

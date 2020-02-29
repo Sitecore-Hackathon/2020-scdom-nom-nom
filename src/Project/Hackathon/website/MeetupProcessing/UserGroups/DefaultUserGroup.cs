@@ -1,7 +1,7 @@
 ﻿using System;
 using Sitecore.Data.Items;
 
-namespace ScDom.Project.Hackathon.MeetupProcessing
+namespace ScDom.Project.Hackathon.MeetupProcessing.UserGroups
 {
     public sealed class DefaultUserGroup : IUserGroup
     {

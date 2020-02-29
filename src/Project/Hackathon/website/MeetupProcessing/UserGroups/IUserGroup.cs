@@ -1,7 +1,7 @@
 ﻿using System;
 using Sitecore.Exceptions;
 
-namespace ScDom.Project.Hackathon.MeetupProcessing
+namespace ScDom.Project.Hackathon.MeetupProcessing.UserGroups
 {
     /// <summary>
     /// The user group details.
