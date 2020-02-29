@@ -73,6 +73,7 @@
     <Compile Include="ItemIDs.cs" />
     <Compile Include="MeetupProcessing\DefaultMeetupManager.cs" />
     <Compile Include="MeetupInfo.cs" />
+    <Compile Include="MeetupProcessing\Meetups\IMeetupInfo.cs" />
     <Compile Include="MeetupProcessing\UserGroups\DefaultUserGroup.cs" />
     <Compile Include="MeetupProcessing\MeetupManager.cs" />
     <Compile Include="MeetupProcessing\UserGroups\ItemUserGroupsRepo.cs" />
