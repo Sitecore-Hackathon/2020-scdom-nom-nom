@@ -9,9 +9,7 @@ SharedFields:
 - ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
   Hint: AdditionalChildren
   Type: Treelist
-  Value: |
-    {1956BE5E-36F6-480D-801A-AD13485B7574}
-    {541253C8-6527-4C1D-9178-3F08E53E26A1}
+  Value: "{275A0142-046D-4A6D-AB3D-CBB5FB3908ED}"
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator
   Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
