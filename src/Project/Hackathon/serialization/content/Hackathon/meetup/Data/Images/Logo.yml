@@ -12,6 +12,10 @@ Languages:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T115227Z
+    - ID: "54cab1ba-53d3-4ce4-ab7e-f8c17596aa47"
+      Hint: TargetUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{67028D8D-0675-4587-A34B-9BE193FE4422}" />
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
@@ -19,4 +23,4 @@ Languages:
     - ID: "ebe4fdef-16d5-4d19-833c-24a241628a3a"
       Hint: Image
       Value: |
-        <image mediaid="{8D6C0AC4-C987-4D4C-BE47-9EB196AB2291}" ></image>
+        <image mediaid="{8D6C0AC4-C987-4D4C-BE47-9EB196AB2291}" alt="Logo" height="" width="" hspace="" vspace="" />

@@ -1,7 +1,7 @@
 ﻿---
-ID: "1ca27a6c-07d9-48a2-8952-e212e49c3e31"
+ID: "788136d7-6c22-4832-b1ab-b029334ee6e2"
 Parent: "9a1721ab-ed58-4bfe-be90-cb42a39b05b3"
-Template: "abed54dc-4f78-40dd-ac56-2289c9c849d8"
+Template: "c2294d82-35a6-452a-94b1-5eb5e543b602"
 Path: /sitecore/content/Hackathon/meetup/Data/Security/Logout
 DB: master
 Languages:
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T115856Z
+      Value: 20200229T130229Z
