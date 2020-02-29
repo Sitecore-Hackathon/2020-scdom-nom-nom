@@ -63,6 +63,7 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DependencyInjection\StanaloneMeetupConfigurator.cs" />
     <Compile Include="EventHandlers\CreateListForUserGroup.cs" />
     <Compile Include="MeetupProcessing\DefaultMeetupManager.cs" />
     <Compile Include="MeetupProcessing\MeetupManager.cs" />
