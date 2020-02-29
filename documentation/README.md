@@ -1,16 +1,18 @@
-# Documentation
-
-The documentation for this years Hackathon must be provided as a readme in Markdown format as part of your submission. 
-
-You can find a very good reference to Github flavoured markdown reference in [this cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). If you want something a bit more WYSIWYG for editing then could use [StackEdit](https://stackedit.io/app) which provides a more user friendly interface for generating the Markdown code. Those of you who are [VS Code fans](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) can edit/preview directly in that interface too.
-
-Examples of things to include are the following.
-
 ## Summary
 
-**Category:** Hackathon Category
+**Category: Meetup**
 
-What is the purpose of your module? What problem does it solve and how does it do that?
+We are using OOB Sitecore capabilities to power meetup logic:
+
+- List Manager maintains participants in each user group, like `Sitecore London User Group` 
+
+- Whenever a new meetup is created, ExM will be used to dispatch emails by configured template
+
+- Every meetup is created as automation plan so that we can directly manipulate with contacts that are willing to participate in it
+
+- While registration takes place, Analytics gets email facet set, as well as contact get identified
+
+- Future events per either user group, or per geo-spacial search can be located
 
 ## Pre-requisites
 
