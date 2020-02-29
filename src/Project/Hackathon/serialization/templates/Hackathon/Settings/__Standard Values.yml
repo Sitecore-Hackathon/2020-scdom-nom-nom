@@ -1,0 +1,14 @@
+﻿---
+ID: "b7647dea-190e-4f3b-85b7-242de1568f97"
+Parent: "55411681-b5fd-4c6f-94d4-b042ccb22dce"
+Template: "55411681-b5fd-4c6f-94d4-b042ccb22dce"
+Path: /sitecore/templates/Project/Hackathon/Settings/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T083437Z
