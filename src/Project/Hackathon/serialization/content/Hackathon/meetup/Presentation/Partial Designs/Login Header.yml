@@ -1,0 +1,54 @@
+﻿---
+ID: "38369c47-e9c1-4406-9603-1963eee6d6f6"
+Parent: "6fd2ba45-fd90-4cbb-81a3-87c47a983327"
+Template: "801b26f0-300c-449d-8f5f-85c68d72f6d4"
+Path: /sitecore/content/Hackathon/meetup/Presentation/Partial Designs/Login Header
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "login-header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            p:after="*[1=2]">
+            <r
+              uid="{EDB697EA-2E6D-49D5-B117-53367801F146}"
+              p:before="*"
+              s:ds="{15E43934-F250-4AF0-B4BD-FA05096AE1FA}"
+              s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC2FB1A74-7EB2-40DC-BD41-D73AAED392F9%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
+              s:ph="/header/row-1-2/column-1-3" />
+            <r
+              uid="{1280AACB-EE3C-485D-A646-1E67A95E0908}"
+              p:after="r[@uid='{EDB697EA-2E6D-49D5-B117-53367801F146}']"
+              s:ds=""
+              s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+              s:par="ColumnWidth1=%7B47AF4C5D-C5CA-4D7C-B601-D74F82035C8A%7D&amp;ColumnWidth2=%7BD503428B-F850-42EF-98DF-923F15582406%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=3"
+              s:ph="/header/row-1-2" />
+            <r
+              uid="{DFFBD6F5-C24A-4EFE-953D-064770220510}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{2DA9B139-FB9C-4FD7-BE84-CB066B2D7CC3}"
+              s:par="Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=2"
+              s:ph="header" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T114026Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

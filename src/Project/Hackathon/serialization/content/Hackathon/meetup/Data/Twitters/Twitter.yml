@@ -1,0 +1,23 @@
+﻿---
+ID: "bbd12618-ceae-4583-a086-a4e60d97b397"
+Parent: "0789567b-fdfa-4fef-a829-2b88387053ab"
+Template: "c27aaa1e-2764-46e4-908c-bb3a4c75c68f"
+Path: /sitecore/content/Hackathon/meetup/Data/Twitters/Twitter
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b339a1f-4a43-4375-9f6a-39be90f5a107"
+      Hint: ScreenName
+      Value: sshushliapin
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T124443Z
+    - ID: "614b5da5-76b7-4efa-bb0c-1c56b27cfadf"
+      Hint: Hashtag
+      Value: 
+    - ID: "ae1eb2d8-3a7c-4337-83df-1b0b0c857bee"
+      Hint: Title
+      Value: Hacathon 2020

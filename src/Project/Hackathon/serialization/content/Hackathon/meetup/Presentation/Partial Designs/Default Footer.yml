@@ -1,0 +1,45 @@
+﻿---
+ID: "4bd1807d-4229-4be4-83e9-c4a75ac66371"
+Parent: "6fd2ba45-fd90-4cbb-81a3-87c47a983327"
+Template: "801b26f0-300c-449d-8f5f-85c68d72f6d4"
+Path: /sitecore/content/Hackathon/meetup/Presentation/Partial Designs/Default Footer
+DB: master
+SharedFields:
+- ID: "55faae90-3bba-4f7f-96fe-13c3f40055ff"
+  Hint: Signature
+  Value: "default-footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Type: Layout
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{8447CA17-B768-41B2-A4D4-CF6915EBCB8B}"
+              p:before="*"
+              s:ds="{BBD12618-CEAE-4583-A086-A4E60D97B397}"
+              s:id="{09ED2F12-913C-4675-B3C8-0FB978CFA7DC}"
+              s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;TitleHeadingLevel=Heading 3&amp;RenderingIdentifier"
+              s:ph="/footer/column-1-1" />
+            <r
+              uid="{2CEE1B07-8DF1-40A1-A2D1-DF62C0F3DDC5}"
+              p:after="*[1=2]"
+              s:id="{C25766C8-9AFD-4D28-87FE-147774F6806D}"
+              s:par="ColumnWidth1=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth2=%7B9AD9D6FB-28FC-43C5-8DA4-4A6A63CE802F%7D&amp;ColumnWidth3&amp;ColumnWidth4&amp;ColumnWidth5&amp;ColumnWidth6&amp;ColumnWidth7&amp;ColumnWidth8&amp;Reset Caching Options&amp;SplitterSize=2&amp;EnabledPlaceholders=1%2C2&amp;Styles1&amp;Styles2&amp;Styles3&amp;Styles4&amp;Styles5&amp;Styles6&amp;Styles7&amp;Styles8&amp;DynamicPlaceholderId=1"
+              s:ph="footer" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T124332Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
