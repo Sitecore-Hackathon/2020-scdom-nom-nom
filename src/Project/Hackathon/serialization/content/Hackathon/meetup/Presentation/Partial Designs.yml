@@ -4,7 +4,6 @@ Parent: "76a8f9e1-7b42-4ca1-b270-8388af74228b"
 Template: "984c39d7-fc2a-4140-8e4d-5876a4d92622"
 Path: /sitecore/content/Hackathon/meetup/Presentation/Partial Designs
 DB: master
-BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

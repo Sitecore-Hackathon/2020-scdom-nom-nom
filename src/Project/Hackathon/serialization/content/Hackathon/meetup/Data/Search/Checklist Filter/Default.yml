@@ -4,7 +4,6 @@ Parent: "c7ade582-9694-466f-91dc-1c14a03155de"
 Template: "6e188261-e572-4330-b88a-88c68b0926e7"
 Path: /sitecore/content/Hackathon/meetup/Data/Search/Checklist Filter/Default
 DB: master
-BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
 SharedFields:
 - ID: "0a5dbe83-3914-4630-90ef-d1bbbcdede7f"
   Hint: Facet

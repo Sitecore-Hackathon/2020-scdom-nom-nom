@@ -4,7 +4,6 @@ Parent: "53c41641-fbf6-47a2-8574-f935dc5f32ad"
 Template: "c58ee915-aa14-49bf-bee4-c821cac26913"
 Path: /sitecore/content/Hackathon/meetup/Presentation/POI Types/My Location POI
 DB: master
-BranchID: "f4371cd2-fd6d-4c4e-910d-8e1095c67b25"
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
   Hint: __Icon

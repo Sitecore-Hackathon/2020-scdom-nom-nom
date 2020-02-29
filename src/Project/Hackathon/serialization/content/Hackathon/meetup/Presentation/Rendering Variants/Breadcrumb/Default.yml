@@ -4,7 +4,6 @@ Parent: "e7180616-7a08-46b7-94f3-c5d7df2aea2f"
 Template: "fb3e3034-33f8-4ce8-be98-dd05010f4c22"
 Path: /sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Breadcrumb/Default
 DB: master
-BranchID: "de3cdf1f-5d97-4c56-b213-94c2754261c6"
 SharedFields:
 - ID: "e1d5adba-8348-4127-9bb6-455936653839"
   Hint: CssClass

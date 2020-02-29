@@ -4,7 +4,6 @@ Parent: "f6f27cf5-d823-4773-914a-d89aa2028884"
 Template: "e32f0141-5506-44f6-a211-fb224756ecc0"
 Path: /sitecore/content/Hackathon/meetup/Data/Search
 DB: master
-BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
   Hint: __Originator

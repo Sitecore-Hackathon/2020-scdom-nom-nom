@@ -4,7 +4,6 @@ Parent: "48f53a77-10ff-47db-baf3-0b079a55cc6f"
 Template: "1151b2a9-08af-4f4d-a892-c2cc9a92ea6a"
 Path: "/sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Aggregated Facet Filter/Default/Section/Filter Checklist - SxaTags"
 DB: master
-BranchID: "f85580ce-5a51-4e53-a0b4-9361380d76ab"
 SharedFields:
 - ID: "06882697-dc92-477d-a99a-5d79bd2ccb8d"
   Hint: RenderingItem
