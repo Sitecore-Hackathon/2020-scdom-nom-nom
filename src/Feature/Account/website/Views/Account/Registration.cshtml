@@ -7,7 +7,7 @@
 @{
     var registering = "Creating";
 }
-<div @Html.Sxa().Component("cxa-register-component", Model.Attributes)>
+<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "login", Model.Attributes)>
     @if (!String.IsNullOrWhiteSpace(Model.ErrorMessage))
     {
         <div class="error-message">
@@ -55,10 +55,10 @@
                             @Html.ValidationMessageFor(m => m.ConfirmPassword)
                         </td>
                     </tr>
-                    <tr colspan="3">
-                        <td>
+                    <tr>
+                        <td colspan="3">
                             <div class="register-buttons">
-                                <button type="submit" id="registerButton" data-loading-text="@registering" disabled="disabled">Create Account</button>
+                                <button type="submit" id="registerButton" disabled="disabled">Create Account</button>
                                 <a href="@Model.CancelLink" disabled="disabled">Cancel</a>
                             </div>
                         </td>
