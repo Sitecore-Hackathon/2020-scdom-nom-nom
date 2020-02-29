@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using ScDom.Project.Hackathon.MeetupProcessing.Meetups;
 using ScDom.Project.Hackathon.MeetupProcessing.UserGroups;
 using Sitecore.Analytics.Tracking;
 using Sitecore.Diagnostics;
@@ -54,13 +55,35 @@ namespace ScDom.Project.Hackathon.MeetupProcessing
             _listEnrollment.Subscribe(listId, contact.ContactId);
         }
 
+        public override IReadOnlyCollection<IMeetupInfo> FindFutureMeetups(Contact contact, DateTime? threshhold)
+        {
+            var date = threshhold.GetValueOrDefault(DateTime.Today.AddDays(60));
+
+            var meetups = from userGroup in FindFor(contact)
+                          from meetup in FindFutureMeetups(userGroup, date)
+                          select meetup;
+
+            return meetups.ToArray();
+        }
+
+        public override IReadOnlyCollection<IMeetupInfo> FindFutureMeetups(IUserGroup userGroup, DateTime? threshhold)
+        {
+            var date = threshhold.GetValueOrDefault(DateTime.Today.AddDays(60));
+            return userGroup.GetMeetups(date);
+        }
+
+        public override void SignIn(IMeetupInfo meetup, Contact contact)
+        {
+            throw new NotImplementedException();
+        }
+
         public override IReadOnlyCollection<IUserGroup> FindFor(Contact contact)
         {
             TryGetListIds(contact, out var listIds);
 
             var ids = from raw in listIds
-                where Guid.TryParse(raw, out _)
-                select Guid.Parse(raw);
+                      where Guid.TryParse(raw, out _)
+                      select Guid.Parse(raw);
 
             return _userGroupsRepo.Get(ids.ToArray());
         }

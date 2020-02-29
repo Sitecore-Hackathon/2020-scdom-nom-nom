@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using ScDom.Project.Hackathon.MeetupProcessing.Meetups;
 using Sitecore.Exceptions;
 
 namespace ScDom.Project.Hackathon.MeetupProcessing.UserGroups
@@ -17,6 +19,13 @@ namespace ScDom.Project.Hackathon.MeetupProcessing.UserGroups
         /// The identifier of the associated List Manager list.
         /// </summary>
         Guid? AssociatedList { get; }
+
+        /// <summary>
+        /// Gets meetups from today till given <paramref name="threshholdDate"/>.
+        /// </summary>
+        /// <param name="threshholdDate">The date to look meetups until.</param>
+        /// <returns></returns>
+        IReadOnlyCollection<IMeetupInfo> GetMeetups(DateTime threshholdDate);
     }
 
     public static class UserGroupExtensions
