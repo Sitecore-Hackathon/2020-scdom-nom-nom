@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using ScDom.Project.Hackathon.MeetupProcessing.UserGroups;
 using Sitecore.Analytics.Tracking;
 
 namespace ScDom.Project.Hackathon.MeetupProcessing
