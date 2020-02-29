@@ -15,7 +15,7 @@ namespace ScDom.Project.Hackathon.EventHandlers
         private readonly IDefinitionManager<IAutomationPlanDefinition> _automationPlanManager;
 
         public CreateEngagementPlanForMeetup(DefinitionManagerFactory definitionManager)
-        :this(definitionManager.GetDefinitionManager<IAutomationPlanDefinition>())
+        : this(definitionManager.GetDefinitionManager<IAutomationPlanDefinition>())
         {
         }
 
@@ -29,16 +29,15 @@ namespace ScDom.Project.Hackathon.EventHandlers
         public void OnItemCreated(object sender, EventArgs args)
         {
             var eventArgs = Assert.ResultNotNull(args as SitecoreEventArgs);
-
             var createdItem = (eventArgs.Parameters[0] as ItemCreatedEventArgs)?.Item;
-
-            if (createdItem?.TemplateID != Templates.MeetupInfo.ID || Sitecore.Publishing.PublishHelper.IsPublishing())
+            if (createdItem == null ||
+                createdItem?.TemplateID != Templates.MeetupInfo.ID ||
+                Sitecore.Publishing.PublishHelper.IsPublishing())
             {
                 return;
             }
 
             var planId = Guid.NewGuid();
-            
             var plan = new AutomationPlanDefinition(
                 id: planId,
                 alias: $"{createdItem.Name} meetup",
@@ -57,7 +56,6 @@ namespace ScDom.Project.Hackathon.EventHandlers
             using (new EditContext(createdItem, SecurityCheck.Disable))
             {
                 var meetupInfo = new MeetupInfo(createdItem);
-
                 meetupInfo.EngagementPlanReference.SetValue(planId.ToString(), force: true);
             }
 
