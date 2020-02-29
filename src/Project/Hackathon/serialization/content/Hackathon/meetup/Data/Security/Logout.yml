@@ -9,6 +9,10 @@ Languages:
   Versions:
   - Version: 1
     Fields:
+    - ID: "13b96afd-2685-4c98-b2ac-d44d49893807"
+      Hint: DestinationUrl
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{67028D8D-0675-4587-A34B-9BE193FE4422}" />
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
       Value: 20200229T130229Z

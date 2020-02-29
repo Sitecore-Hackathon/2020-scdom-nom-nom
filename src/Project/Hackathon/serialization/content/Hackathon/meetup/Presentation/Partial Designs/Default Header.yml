@@ -27,7 +27,7 @@ Languages:
               p:before="*"
               s:ds="{24B4A1BC-51FB-4A06-9EAE-B76CD1DAA677}"
               s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
-              s:pt="{E3B35F38-33CC-49EC-B587-A67ACC0D168E}"
+              s:pt="{0CB7D756-8DA6-4471-A0EF-4AD19D22669D}"
               s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDF43E802-C1E5-4909-8A2F-E6E9736DECBC%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=5"
               s:ph="/header/row-1-2/column-2-3">
               <rls>
@@ -35,7 +35,7 @@ Languages:
                   s:pet="true">
                   <rule
                     uid="{4766FD9D-123C-4F63-B9D1-B7BA30FF188B}"
-                    s:name="Specify name..."
+                    s:name="Hide when logged in"
                     s:test="true">
                     <actions>
                       <action
@@ -68,7 +68,7 @@ Languages:
               p:after="r[@uid='{D50E9BB0-277C-4714-A328-A3044F5121AA}']"
               s:ds="{788136D7-6C22-4832-B1AB-B029334EE6E2}"
               s:id="{E7AF0BB2-969E-4B4F-86AC-62FC4F2FE2D6}"
-              s:pt="{E3B35F38-33CC-49EC-B587-A67ACC0D168E}"
+              s:pt="{0CB7D756-8DA6-4471-A0EF-4AD19D22669D}"
               s:par="Reset Caching Options&amp;GridParameters={908E2BC6-C110-4ED7-AF39-7EEACBB31A34}&amp;Styles&amp;RenderingIdentifier"
               s:ph="/header/row-1-2/column-2-3">
               <rls>
@@ -104,8 +104,49 @@ Languages:
               </rls>
             </r>
             <r
-              uid="{EDB697EA-2E6D-49D5-B117-53367801F146}"
+              uid="{15AC0F5F-700C-4D5D-9ADA-54692C541071}"
               p:after="r[@uid='{FEBD5F72-FABB-4E86-9511-302CF400CEE4}']"
+              s:ds="{6F8C1FFD-CC57-4378-9891-8905F3479020}"
+              s:id="{3972C278-7E7A-4C2B-A293-66AF860F5C3A}"
+              s:pt="{0CB7D756-8DA6-4471-A0EF-4AD19D22669D}"
+              s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BDF43E802-C1E5-4909-8A2F-E6E9736DECBC%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=6"
+              s:ph="/header/row-1-2/column-2-3">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{C73440DF-D46E-4CF5-978A-9B8B4017F1E2}"
+                    s:name="Hide when logged in"
+                    s:test="true">
+                    <actions>
+                      <action
+                        uid="D62D3C5F68B147BF86D402235102795C"
+                        s:id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}" />
+                    </actions>
+                    <conditions>
+                      <condition
+                        uid="F5C18693561E43AA90F0E54F85B49EDB"
+                        s:id="{EA0642FA-500B-4B2F-B264-765E771C516F}"
+                        s:except="true" />
+                    </conditions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default"
+                    s:test="true">
+                    <conditions>
+                      <condition
+                        uid="C47ADF8FABEE4176AB78E14B40E2BF1F"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                    <actions />
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
+              uid="{EDB697EA-2E6D-49D5-B117-53367801F146}"
+              p:after="r[@uid='{15AC0F5F-700C-4D5D-9ADA-54692C541071}']"
               s:ds="{15E43934-F250-4AF0-B4BD-FA05096AE1FA}"
               s:id="{69D0A00E-FF06-4B17-BE59-BED330577680}"
               s:par="Reset Caching Options&amp;GridParameters=%7B908E2BC6-C110-4ED7-AF39-7EEACBB31A34%7D&amp;FieldNames=%7BC2FB1A74-7EB2-40DC-BD41-D73AAED392F9%7D&amp;Styles&amp;RenderingIdentifier&amp;DynamicPlaceholderId=4"
