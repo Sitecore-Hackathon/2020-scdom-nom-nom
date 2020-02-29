@@ -1,0 +1,23 @@
+﻿---
+ID: "cd5ff075-036f-45ce-a316-11a833d12126"
+Parent: "65429fa1-2fd5-47e6-8277-29918fe2bba9"
+Template: "e7f9974f-1c01-4c82-9f2c-d347548ec317"
+Path: "/sitecore/content/Hackathon/meetup/Home/scDom-rom/March 20 meetup"
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ed0dd7d-5169-41a5-83ac-8990377ce226"
+      Hint: Title
+      Value: March 20 meetup
+    - ID: "1fb9f55d-2c43-49c2-a61d-df8552c88c20"
+      Hint: EventName
+      Value: March 20 meetup
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T151234Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: March 20 meetup
