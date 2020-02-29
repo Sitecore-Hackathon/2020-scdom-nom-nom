@@ -1,0 +1,19 @@
+﻿---
+ID: "af08fe94-b73b-4934-b52b-86974bb43760"
+Parent: "bedb4414-f568-4061-86cb-e5dc0beeb4d3"
+Template: "f823b393-fea3-4487-a3c8-c084f114151a"
+Path: /sitecore/content/Hackathon/meetup/Data/Search/Page Size
+DB: master
+BranchID: "957565a0-bf0d-4f8b-bf2c-4a8f40ec9080"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E483F6B9-DA3B-44AA-B48A-11E3A02BC4B4}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092157Z

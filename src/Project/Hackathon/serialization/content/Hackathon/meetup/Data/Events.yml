@@ -1,0 +1,14 @@
+﻿---
+ID: "e284f77f-de8a-4b0b-9771-e52151d8295d"
+Parent: "f6f27cf5-d823-4773-914a-d89aa2028884"
+Template: "af1cc1af-99cc-4e3c-9a26-3ead62890fce"
+Path: /sitecore/content/Hackathon/meetup/Data/Events
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092040Z

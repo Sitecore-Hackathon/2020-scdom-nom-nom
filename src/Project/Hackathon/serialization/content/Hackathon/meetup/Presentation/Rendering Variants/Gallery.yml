@@ -1,0 +1,18 @@
+﻿---
+ID: "56aa24a5-c7ec-457c-8a3f-f7d008cb6698"
+Parent: "ea096643-f03b-4ab0-ba96-3e6841d17a1a"
+Template: "e1a3b30c-77bc-4f6c-a008-d01b3371235d"
+Path: /sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Gallery
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/sizes.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092109Z

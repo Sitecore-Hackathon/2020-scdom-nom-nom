@@ -1,0 +1,14 @@
+﻿---
+ID: "54755af7-669b-47c7-a947-82b969723a8e"
+Parent: "f6f27cf5-d823-4773-914a-d89aa2028884"
+Template: "68c00cb0-320b-4324-903a-f6ad56a2a105"
+Path: /sitecore/content/Hackathon/meetup/Data/Accordions
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092035Z

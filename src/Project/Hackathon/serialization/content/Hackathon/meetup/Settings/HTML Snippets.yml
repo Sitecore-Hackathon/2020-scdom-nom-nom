@@ -1,0 +1,14 @@
+﻿---
+ID: "380a858e-a530-40fa-bbe9-21c4be68dad4"
+Parent: "34efcabd-bb3e-40af-8efa-efee50124341"
+Template: "35abcb7f-dd86-483d-abe1-41c93c3aa7d9"
+Path: /sitecore/content/Hackathon/meetup/Settings/HTML Snippets
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092048Z

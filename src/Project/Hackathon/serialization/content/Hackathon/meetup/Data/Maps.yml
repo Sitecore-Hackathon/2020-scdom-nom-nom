@@ -1,0 +1,14 @@
+﻿---
+ID: "59714c72-ef59-4c9a-9780-6b0c38e2d8db"
+Parent: "f6f27cf5-d823-4773-914a-d89aa2028884"
+Template: "8302b292-e67b-4396-ba95-b4f8289249fc"
+Path: /sitecore/content/Hackathon/meetup/Data/Maps
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092102Z

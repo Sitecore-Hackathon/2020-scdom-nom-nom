@@ -1,0 +1,23 @@
+﻿---
+ID: "c526d478-5bb9-4a2a-90e3-add4b151d17a"
+Parent: "ff6138ef-6d6d-449f-af16-119f7acb00fa"
+Template: "2e1d7985-0bf1-469b-a00b-4f2ac443940c"
+Path: /sitecore/content/Hackathon/meetup/Presentation/Layout Service/Default
+DB: master
+BranchID: "b002c2a2-6ded-4fcb-be63-dfc310d6bcf3"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{F6186688-A399-40DA-9E49-AED0DB96A9D7}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092100Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

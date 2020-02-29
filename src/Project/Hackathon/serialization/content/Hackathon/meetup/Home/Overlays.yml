@@ -1,0 +1,14 @@
+﻿---
+ID: "f7338e2e-cd62-4928-be67-5e144ffbb569"
+Parent: "67028d8d-0675-4587-a34b-9be193fe4422"
+Template: "d7bffbe5-dad8-4137-85de-28013313f72f"
+Path: /sitecore/content/Hackathon/meetup/Home/Overlays
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092014Z

@@ -1,0 +1,18 @@
+﻿---
+ID: "f80e6f4c-3be1-49fd-8d3a-9a1f3635ea06"
+Parent: "34efcabd-bb3e-40af-8efa-efee50124341"
+Template: "18d0bd79-7da4-4c2a-a924-b93a2b99d669"
+Path: /sitecore/content/Hackathon/meetup/Settings/Shared Sites Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092017Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

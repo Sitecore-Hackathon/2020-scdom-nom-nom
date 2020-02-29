@@ -1,0 +1,14 @@
+﻿---
+ID: "0789567b-fdfa-4fef-a829-2b88387053ab"
+Parent: "f6f27cf5-d823-4773-914a-d89aa2028884"
+Template: "041c1f9f-99a4-4ee6-8308-985499f91032"
+Path: /sitecore/content/Hackathon/meetup/Data/Twitters
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092148Z

@@ -1,0 +1,25 @@
+﻿---
+ID: "c08cc85f-5ad7-454e-9c83-e333d976769a"
+Parent: "39daba9c-a9b5-4b25-9d9a-69e14668de35"
+Template: "e8e8c94f-4248-43c3-a79f-99fbb49d78e6"
+Path: /sitecore/content/Hackathon/meetup/Media
+DB: master
+BranchID: "b90549b5-c997-4d6b-b102-c9ab82528974"
+SharedFields:
+- ID: "de8257d9-43aa-4eff-a2f4-2e9fbbd20e79"
+  Hint: AdditionalChildren
+  Type: Treelist
+  Value: |
+    {1956BE5E-36F6-480D-801A-AD13485B7574}
+    {541253C8-6527-4C1D-9178-3F08E53E26A1}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{E2FF4516-4407-4173-8ADD-704761C15B74}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092008Z

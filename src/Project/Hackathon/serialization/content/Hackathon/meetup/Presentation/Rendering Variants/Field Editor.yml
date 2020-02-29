@@ -1,0 +1,18 @@
+﻿---
+ID: "88a79164-148e-40e0-8dd6-1332d0c415b3"
+Parent: "ea096643-f03b-4ab0-ba96-3e6841d17a1a"
+Template: "e1a3b30c-77bc-4f6c-a008-d01b3371235d"
+Path: /sitecore/content/Hackathon/meetup/Presentation/Rendering Variants/Field Editor
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/text_field.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092127Z

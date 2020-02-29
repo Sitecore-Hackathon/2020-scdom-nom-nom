@@ -1,0 +1,23 @@
+﻿---
+ID: "55943e9b-4ceb-4269-aeed-a69c64e15464"
+Parent: "446e679e-320f-40e5-ba88-cfdf9924b885"
+Template: "5203732f-9512-4ade-8e02-0cb085c10454"
+Path: /sitecore/content/Hackathon/meetup/Settings/Site Grouping/meetup/CORS/default
+DB: master
+BranchID: "f0e39dc1-6a4f-41ed-b0fe-b65bf09a1745"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{10670D11-AD0B-4E03-9118-872819CBA6B2}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092056Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

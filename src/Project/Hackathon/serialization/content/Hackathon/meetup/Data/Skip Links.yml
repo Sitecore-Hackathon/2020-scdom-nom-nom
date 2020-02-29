@@ -1,0 +1,14 @@
+﻿---
+ID: "e4f778a5-81d3-4daa-af99-24309446be3e"
+Parent: "f6f27cf5-d823-4773-914a-d89aa2028884"
+Template: "1dc97094-8357-4335-8df5-3349193b1e02"
+Path: /sitecore/content/Hackathon/meetup/Data/Skip Links
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092032Z

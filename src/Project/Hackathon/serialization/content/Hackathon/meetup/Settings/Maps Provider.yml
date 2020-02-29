@@ -1,0 +1,18 @@
+﻿---
+ID: "f554865e-d392-48de-8575-af2461d497b1"
+Parent: "34efcabd-bb3e-40af-8efa-efee50124341"
+Template: "70461699-48e4-45fa-b74b-0cce849fca6a"
+Path: /sitecore/content/Hackathon/meetup/Settings/Maps Provider
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092049Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

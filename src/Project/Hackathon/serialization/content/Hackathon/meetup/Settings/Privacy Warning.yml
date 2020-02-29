@@ -1,0 +1,14 @@
+﻿---
+ID: "57146c54-f3c6-44c6-980a-d9df0e6bbd03"
+Parent: "34efcabd-bb3e-40af-8efa-efee50124341"
+Template: "dc66d5da-3216-48e6-ae78-bac8445b6a46"
+Path: /sitecore/content/Hackathon/meetup/Settings/Privacy Warning
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092033Z

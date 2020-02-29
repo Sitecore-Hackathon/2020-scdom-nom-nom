@@ -1,0 +1,14 @@
+﻿---
+ID: "f50250a9-3ac0-413c-bdd9-7dda121896d6"
+Parent: "f6f27cf5-d823-4773-914a-d89aa2028884"
+Template: "f07cbe89-73ae-4de6-9217-2570260cac6e"
+Path: /sitecore/content/Hackathon/meetup/Data/Promos
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092126Z

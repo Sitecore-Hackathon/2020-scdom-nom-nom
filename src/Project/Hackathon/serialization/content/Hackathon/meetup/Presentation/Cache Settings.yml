@@ -1,0 +1,14 @@
+﻿---
+ID: "60ada33d-dea5-4ea5-adc5-9cc10242b2e3"
+Parent: "76a8f9e1-7b42-4ca1-b270-8388af74228b"
+Template: "26fce9bf-0256-458d-8281-a713a5bf5520"
+Path: /sitecore/content/Hackathon/meetup/Presentation/Cache Settings
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092020Z

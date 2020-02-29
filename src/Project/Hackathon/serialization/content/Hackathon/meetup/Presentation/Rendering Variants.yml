@@ -1,0 +1,14 @@
+﻿---
+ID: "ea096643-f03b-4ab0-ba96-3e6841d17a1a"
+Parent: "76a8f9e1-7b42-4ca1-b270-8388af74228b"
+Template: "bbb9ae71-c6b4-4201-83e7-ac5b3ef373dc"
+Path: /sitecore/content/Hackathon/meetup/Presentation/Rendering Variants
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T092031Z
