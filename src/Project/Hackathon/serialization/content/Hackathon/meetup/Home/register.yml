@@ -1,0 +1,24 @@
+﻿---
+ID: "b950389d-d660-443b-ae6d-993a02839561"
+Parent: "67028d8d-0675-4587-a34b-9be193fe4422"
+Template: "9d9d5e75-2aea-44a7-9241-5840ecc7879a"
+Path: /sitecore/content/Hackathon/meetup/Home/register
+DB: master
+SharedFields:
+- ID: "24171bf1-c0e1-480e-be76-4c0a1876f916"
+  Hint: Page Design
+  Value: "{34045175-3E83-4D47-A423-6A90DA179087}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1ed0dd7d-5169-41a5-83ac-8990377ce226"
+      Hint: Title
+      Value: register
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T160728Z
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: register
