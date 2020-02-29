@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using ScDom.Featrure.Account.Models;
 using Sitecore.XA.Foundation.Mvc.Controllers;
 
-namespace ScDom.Featrure.Account.Controllers
+namespace ScDom.Feature.Account.Controllers
 {
     public class AccountController : StandardController
     {
