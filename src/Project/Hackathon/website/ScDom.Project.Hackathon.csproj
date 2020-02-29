@@ -66,6 +66,7 @@
     <Compile Include="DependencyInjection\StanaloneMeetupConfigurator.cs" />
     <Compile Include="EventHandlers\CreateListForUserGroup.cs" />
     <Compile Include="MeetupProcessing\DefaultMeetupManager.cs" />
+    <Compile Include="MeetupProcessing\DefaultUserGroup.cs" />
     <Compile Include="MeetupProcessing\MeetupManager.cs" />
     <Compile Include="MeetupProcessing\IUserGroup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -29,7 +29,9 @@ namespace ScDom.Project.Hackathon.MeetupProcessing
             Assert.ArgumentNotNull(contact, nameof(contact));
             Assert.ArgumentNotNull(userGroup, nameof(userGroup));
 
-            var candidate = userGroup.AssociatedList.ToString();
+            var listId = userGroup.GetAssociatedListRequired();
+            var candidate = listId.ToString();
+
             if (TryGetListIds(contact, out var lists))
             {
                 if (lists.Contains(candidate, StringComparer.OrdinalIgnoreCase))
@@ -45,9 +47,8 @@ namespace ScDom.Project.Hackathon.MeetupProcessing
                 Update(contact, candidate);
             }
 
-            _listEnrollment.Subscribe(userGroup.AssociatedList, contact.ContactId);
+            _listEnrollment.Subscribe(listId, contact.ContactId);
         }
-
 
         public override IReadOnlyCollection<IUserGroup> FindFor(Contact contact) => throw new NotImplementedException("not yet");
 

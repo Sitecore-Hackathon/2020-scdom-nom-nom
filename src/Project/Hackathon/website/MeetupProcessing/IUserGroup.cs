@@ -1,4 +1,5 @@
 ﻿using System;
+using Sitecore.Exceptions;
 
 namespace ScDom.Project.Hackathon.MeetupProcessing
 {
@@ -15,6 +16,19 @@ namespace ScDom.Project.Hackathon.MeetupProcessing
         /// <summary>
         /// The identifier of the associated List Manager list.
         /// </summary>
-        Guid AssociatedList { get; }
+        Guid? AssociatedList { get; }
+    }
+
+    public static class UserGroupExtensions
+    {
+        public static Guid GetAssociatedListRequired(this IUserGroup userGroup)
+        {
+            if (userGroup.AssociatedList.HasValue)
+            {
+                return userGroup.AssociatedList.Value;
+            }
+
+            throw new RequiredObjectIsNullException($"{userGroup.Name} does not have any list associated with it");
+        }
     }
 }
