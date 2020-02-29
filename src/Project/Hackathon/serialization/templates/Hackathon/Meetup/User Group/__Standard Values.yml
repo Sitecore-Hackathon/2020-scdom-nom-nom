@@ -1,0 +1,14 @@
+﻿---
+ID: "ea1045f5-4f70-40ef-9441-537dfcd82945"
+Parent: "399c22af-bbdb-4218-81b0-7d313c5e1848"
+Template: "399c22af-bbdb-4218-81b0-7d313c5e1848"
+Path: /sitecore/templates/Project/Hackathon/Meetup/User Group/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T113345Z

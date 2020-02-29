@@ -18,5 +18,25 @@ namespace ScDom.Project.Hackathon
                 public static readonly ID Content = new ID("{00D25759-CC5A-4855-9C5C-2F5605FC7A58}");
             }
         }
+
+        /// <summary>
+        /// The user group details, such as <see cref="Fields.Data"/> (group name, description), as well as geographical location.
+        /// <para>Contains image info as well.</para>
+        /// </summary>
+        public struct UserGroup
+        {
+            public static readonly ID ID = new ID("{399C22AF-BBDB-4218-81B0-7D313C5E1848}");
+
+            public struct Fields
+            {
+                public static readonly ID ListReference = new ID("{B93EA3A2-2E4E-49F8-AAFE-7862B355245D}");
+
+                public static readonly SXA.Maps.Templates.Map.Fields Map = new SXA.Maps.Templates.Map.Fields();
+
+                public static readonly Page.Fields Data = new Page.Fields();
+
+                public static readonly SXA.Media.Templates.Image.Fields Image = new SXA.Media.Templates.Image.Fields();
+            }
+        }
     }
 }
