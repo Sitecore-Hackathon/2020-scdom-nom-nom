@@ -1,6 +1,6 @@
 ﻿using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
-using static ScDom.Project.Hackathon.Templates.UserGroup.Fields;
+using static ScDom.Project.Hackathon.Templates.UserGroup;
 
 namespace ScDom.Project.Hackathon
 {
@@ -10,6 +10,8 @@ namespace ScDom.Project.Hackathon
         {
         }
 
-        public Field AssociatedList => InnerItem.Fields[ListReference];
+        public Field AssociatedList => InnerItem.Fields[Fields.ListReference];
+
+        public string UserGroupName => Name;
     }
 }
