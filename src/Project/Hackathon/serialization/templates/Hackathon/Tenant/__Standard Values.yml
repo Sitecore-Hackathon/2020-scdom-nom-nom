@@ -1,7 +1,7 @@
 ﻿---
-ID: "c28ac361-1ba3-4db4-9529-0ab60c0db9da"
-Parent: "a719079c-8bea-4fad-95c3-b18a9f08951a"
-Template: "a719079c-8bea-4fad-95c3-b18a9f08951a"
+ID: "014d7b43-08ae-43b4-8b23-2cb76520dbf2"
+Parent: "36dbbb9b-01b1-4268-8b4b-d85610290fd5"
+Template: "36dbbb9b-01b1-4268-8b4b-d85610290fd5"
 Path: /sitecore/templates/Project/Hackathon/Tenant/__Standard Values
 DB: master
 Languages:
@@ -11,4 +11,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T083436Z
+      Value: 20200229T091134Z

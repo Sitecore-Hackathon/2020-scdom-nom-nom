@@ -1,7 +1,7 @@
 ﻿---
-ID: "3e3da14f-2842-4986-a536-1093aee69a19"
-Parent: "087d22f3-8a7a-427c-9f92-7d51364be1cf"
-Template: "087d22f3-8a7a-427c-9f92-7d51364be1cf"
+ID: "685ad7cd-315e-411b-80c0-ef2aea544278"
+Parent: "9d9d5e75-2aea-44a7-9241-5840ecc7879a"
+Template: "9d9d5e75-2aea-44a7-9241-5840ecc7879a"
 Path: /sitecore/templates/Project/Hackathon/Page/__Standard Values
 DB: master
 SharedFields:
@@ -9,7 +9,7 @@ SharedFields:
   Hint: __Masters
   Type: TreelistEx
   Value: |
-    {087D22F3-8A7A-427C-9F92-7D51364BE1CF}
+    {9D9D5E75-2AEA-44A7-9241-5840ECC7879A}
     {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
@@ -28,9 +28,9 @@ Languages:
   Versions:
   - Version: 1
     Fields:
-    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
-      Hint: __Created
-      Value: 20200229T083436Z
-    - ID: "813706e5-cc10-4596-8b17-d79d35dfdf9e"
+    - ID: "1ed0dd7d-5169-41a5-83ac-8990377ce226"
       Hint: Title
       Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T091135Z

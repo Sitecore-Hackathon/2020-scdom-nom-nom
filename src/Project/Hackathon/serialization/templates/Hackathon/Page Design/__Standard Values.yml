@@ -1,7 +1,7 @@
 ﻿---
-ID: "75704d3e-2f4a-42f6-976c-939c0cebef6d"
-Parent: "4b316136-a901-4d0b-9b69-1ff149f61dbc"
-Template: "4b316136-a901-4d0b-9b69-1ff149f61dbc"
+ID: "e6f9471a-1024-4507-8f7f-fb06ad02f3ca"
+Parent: "97f4de23-5933-4771-ab2a-7c79bba3bbf9"
+Template: "97f4de23-5933-4771-ab2a-7c79bba3bbf9"
 Path: /sitecore/templates/Project/Hackathon/Page Design/__Standard Values
 DB: master
 SharedFields:
@@ -24,4 +24,4 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T083438Z
+      Value: 20200229T091136Z

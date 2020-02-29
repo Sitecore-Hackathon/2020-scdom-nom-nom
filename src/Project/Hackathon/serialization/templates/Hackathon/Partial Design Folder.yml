@@ -1,6 +1,6 @@
 ﻿---
-ID: "ee3858ce-2658-4068-b13e-10825cc3b06f"
-Parent: "d6bbf7c5-f2bb-45ad-be91-e209d18da1cb"
+ID: "bfe3e2e2-66c8-4267-a278-3a3ad3e23a61"
+Parent: "36bc4cc0-26f9-4b72-926d-8613c54f169e"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
 Path: /sitecore/templates/Project/Hackathon/Partial Design Folder
 DB: master
@@ -14,7 +14,7 @@ SharedFields:
   Value: "{6A4620BB-19F5-4995-837A-7BAA61231C52}"
 - ID: "f7d48a55-2158-4f02-9356-756654404f73"
   Hint: __Standard values
-  Value: "{2AA63495-F7DF-4B30-8E74-0CF9C1911C7F}"
+  Value: "{BA84CB53-3F35-4FF1-BA33-305244BA8761}"
 Languages:
 - Language: en
   Versions:
@@ -22,7 +22,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20200229T083437Z
+      Value: 20200229T091135Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
