@@ -7,7 +7,7 @@
 @{
     var registering = "Creating";
 }
-<div @Html.Sxa().Component(Model.Rendering.RenderingCssClass ?? "login", Model.Attributes)>
+<div @Html.Sxa().Component("login", Model.Attributes)>
     @if (!String.IsNullOrWhiteSpace(Model.ErrorMessage))
     {
         <div class="error-message">
