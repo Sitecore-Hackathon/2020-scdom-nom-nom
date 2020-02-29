@@ -7,5 +7,7 @@ namespace ScDom.Project.Hackathon.MeetupProcessing.Meetups
         Guid? AutomationPlan { get; } 
 
         string Name { get; }
+
+        DateTime? StartDate { get; }
     }
 }
