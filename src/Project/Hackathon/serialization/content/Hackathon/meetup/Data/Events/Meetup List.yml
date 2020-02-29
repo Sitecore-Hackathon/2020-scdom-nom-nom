@@ -1,0 +1,17 @@
+﻿---
+ID: "e6b97459-76c9-4aa5-acec-9b8708e38616"
+Parent: "e284f77f-de8a-4b0b-9771-e52151d8295d"
+Template: "311e5f53-cf27-4a85-b887-b84bee5d3ba3"
+Path: /sitecore/content/Hackathon/meetup/Data/Events/Meetup List
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T114944Z
+    - ID: "c08b42e9-c147-47d1-b50c-6274eb3a8baa"
+      Hint: Title
+      Value: Meetups

@@ -1,0 +1,38 @@
+﻿---
+ID: "115c87e2-f91e-48c7-a99a-0ff0f858be9f"
+Parent: "e6b97459-76c9-4aa5-acec-9b8708e38616"
+Template: "62c2b7d0-1c34-4aa6-b3d3-5d612c0891bd"
+Path: /sitecore/content/Hackathon/meetup/Data/Events/Meetup List/Sitecore User Group Belarus Meetup March 2020
+DB: master
+SharedFields:
+- ID: "9e47d308-2e9c-413a-ac93-3c51c52e74d2"
+  Hint: EventStart
+  Value: 20200304T170000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fb9f55d-2c43-49c2-a61d-df8552c88c20"
+      Hint: EventName
+      Value: Sitecore User Group Belarus Meetup March 2020
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T124126Z
+    - ID: "62bafe3f-b288-429a-928e-b6a516a198b6"
+      Hint: EventPlace
+      Value: "Бизнес-Клуб/Startup Hub"
+    - ID: "79825619-c640-4892-98a8-9c4b112673d5"
+      Hint: EventDescription
+      Value: |
+        What we're about<br />
+        <br />
+        Sitecore community in Belarus, Minsk aims to bring together professionals who is already working with Sitecore or want to learn about it. This group is open to all developers, marketers and users.<br />
+        <br />
+        The mission of the Sitecore User Group is to share knowledge and best practices, grow local Sitecore community and have an opportunity to network with one another.<br />
+        <br />
+        Join us if you have something to share about Sitecore or if you want to improve quality of our projects for better experience of our customers.<br />
+        <br />
+        * What is Sitecore?<br />
+        <br />
+        Sitecore is the global leader in customer experience management. The company delivers highly relevant content and personalized digital experiences that delight audiences, build loyalty, and drive revenue. With the Sitecore&reg; Experience Platform&trade;, marketers can own the experience of every customer who engages with their brand, across every channel.

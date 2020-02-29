@@ -1,0 +1,32 @@
+﻿---
+ID: "6e37de08-fc29-4039-9efe-5bd5d45d1132"
+Parent: "e6b97459-76c9-4aa5-acec-9b8708e38616"
+Template: "62c2b7d0-1c34-4aa6-b3d3-5d612c0891bd"
+Path: /sitecore/content/Hackathon/meetup/Data/Events/Meetup List/Sitecore Hackathon 2020
+DB: master
+SharedFields:
+- ID: "9e47d308-2e9c-413a-ac93-3c51c52e74d2"
+  Hint: EventStart
+  Value: 20200228T230000Z
+- ID: "c9999f64-a453-46a6-ae47-c423599986a7"
+  Hint: EventEnd
+  Value: 20200229T213000Z
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1fb9f55d-2c43-49c2-a61d-df8552c88c20"
+      Hint: EventName
+      Value: Sitecore Hackathon 2020
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T115113Z
+    - ID: "62bafe3f-b288-429a-928e-b6a516a198b6"
+      Hint: EventPlace
+      Value: Dnipro
+    - ID: "79825619-c640-4892-98a8-9c4b112673d5"
+      Hint: EventDescription
+      Value: |
+        <p>The 2020 Sitecore Hackathon is a free online community driven event organized by&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/akshaysura13" target="_blank">Akshay Sura</a>&nbsp;and supported by Sitecore. (Shout out to&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/pieterbrink123" target="_blank">Pieter</a>, &nbsp;<a rel="noopener noreferrer" href="https://twitter.com/markvanaalst" target="_blank">Mark</a>&nbsp;and&nbsp;<a rel="noopener noreferrer" href="https://twitter.com/VargaT" target="_blank">Tamas</a>).</p>
+        <p>Teams that have signed up by&nbsp;<strong>6 pm EST February 14, 2020</strong>&nbsp;will have the opportunity to participate in the contest. Eligible teams will have 24 hours &mdash; starting&nbsp;<strong>Friday February 28th 2020 at 8PM EST</strong>&nbsp;and ending&nbsp;<strong>Saturday February 29th 2020 at 8PM EST</strong>&nbsp;&ndash; to build and submit a Sitecore module best implementing the idea for the Hackathon, as determined by our panel of judges. The idea(s) will be announced an hour before the Hackathon starts on February 28th.</p>
