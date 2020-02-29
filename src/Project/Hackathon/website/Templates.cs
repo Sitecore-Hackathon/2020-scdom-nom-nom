@@ -38,5 +38,28 @@ namespace ScDom.Project.Hackathon
                 public static readonly SXA.Media.Templates.Image.Fields Image = new SXA.Media.Templates.Image.Fields();
             }
         }
+
+
+        /// <summary>
+        /// The meeting details, such as <see cref="Fields.Data"/> (name, description), as well as geographical location.
+        /// <para>Contains image info as well.</para>
+        /// </summary>
+        public struct MeetupInfo
+        {
+            public static readonly ID ID = new ID("{E7F9974F-1C01-4C82-9F2C-D347548EC317}");
+
+            public struct Fields
+            {
+                public static readonly ID EngagementPlanReference = new ID("{C00DCB1D-41B4-420B-8C8F-36D327D61E21}");
+
+                public static readonly SXA.Maps.Templates.Map.Fields Map = new SXA.Maps.Templates.Map.Fields();
+
+                public static readonly Page.Fields Data = new Page.Fields();
+
+                public static readonly SXA.Media.Templates.Image.Fields Image = new SXA.Media.Templates.Image.Fields();
+
+                public static readonly SXA.Events.Templates.CalendarEvent.Fields CalendarEvents = new SXA.Events.Templates.CalendarEvent.Fields();
+            }
+        }
     }
 }

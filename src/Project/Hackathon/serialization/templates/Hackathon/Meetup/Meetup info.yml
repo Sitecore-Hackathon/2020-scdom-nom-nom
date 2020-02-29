@@ -1,0 +1,35 @@
+﻿---
+ID: "e7f9974f-1c01-4c82-9f2c-d347548ec317"
+Parent: "bb1f20b5-541a-4861-b932-8aeb5d1836a3"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Hackathon/Meetup/Meetup info
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/singer.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {9D9D5E75-2AEA-44A7-9241-5840ECC7879A}
+    {0AACD498-CEA9-4E37-8CA0-61D1F024FB34}
+    {62C2B7D0-1C34-4AA6-B3D3-5D612C0891BD}
+    {BB8A85AB-1F6D-4518-8772-1C9F4F8DAC18}
+Languages:
+- Language: en
+  Fields:
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Meetup info, like agenda, location and date
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200229T150613Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
