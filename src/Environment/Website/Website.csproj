@@ -85,12 +85,6 @@
       <Version>1.5.6</Version>
     </PackageReference>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Feature\Account\website\ScDom.Feature.Account.csproj">
-      <Project>{6959aa36-3bb5-441b-8c35-78f220993622}</Project>
-      <Name>ScDom.Feature.Account</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
