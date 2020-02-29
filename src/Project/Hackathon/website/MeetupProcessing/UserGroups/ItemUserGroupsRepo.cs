@@ -47,6 +47,11 @@ namespace ScDom.Project.Hackathon.MeetupProcessing.UserGroups
 
         public override IReadOnlyCollection<IUserGroup> Get(IReadOnlyCollection<Guid> listIds)
         {
+            if (!listIds.Any())
+            {
+                return Array.Empty<IUserGroup>();
+            }
+
             var matched = from candidate in GetAll()
                           let listId = candidate.AssociatedList
                           where listId.HasValue
