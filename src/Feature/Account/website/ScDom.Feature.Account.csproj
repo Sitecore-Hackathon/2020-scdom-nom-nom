@@ -83,7 +83,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Account\Registration.cshtml" />
-    <Content Include="App_Config\Include\Feature\Feature.Account.config" />
+    <Content Include="App_Config\Include\Feature\Feature.Account.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Config\Include\Feature\Feature.Account.Serialization.config" />
   </ItemGroup>
   <ItemGroup />
