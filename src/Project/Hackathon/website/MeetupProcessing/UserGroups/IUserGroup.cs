@@ -30,5 +30,7 @@ namespace ScDom.Project.Hackathon.MeetupProcessing.UserGroups
 
             throw new RequiredObjectIsNullException($"{userGroup.Name} does not have any list associated with it");
         }
+
+        public static bool HasAssociatedList(this IUserGroup userGroup) => userGroup.AssociatedList.HasValue;
     }
 }
