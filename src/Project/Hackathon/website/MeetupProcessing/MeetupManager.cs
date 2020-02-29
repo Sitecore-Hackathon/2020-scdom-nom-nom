@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using ScDom.Project.Hackathon.MeetupProcessing.Meetups;
 using ScDom.Project.Hackathon.MeetupProcessing.UserGroups;
 using Sitecore.Analytics.Tracking;
@@ -29,8 +30,17 @@ namespace ScDom.Project.Hackathon.MeetupProcessing
         /// Finds future meetups for user groups user in.
         /// </summary>
         /// <param name="contact"></param>
+        /// <param name="threshhold">The threshold to use in future.</param>
         /// <returns></returns>
-        public abstract IReadOnlyCollection<IMeetupInfo> FindFutureMeetups(Contact contact);
+        public abstract IReadOnlyCollection<IMeetupInfo> FindFutureMeetups(Contact contact, DateTime? threshhold= null);
+
+        /// <summary>
+        /// Finds future meetups for given user group.
+        /// </summary>
+        /// <param name="userGroup"></param>
+        /// /// <param name="threshhold">The threshold to use in future.</param>
+        /// <returns></returns>
+        public abstract IReadOnlyCollection<IMeetupInfo> FindFutureMeetups(IUserGroup userGroup, DateTime? threshhold=null);
 
         /// <summary>
         /// Signs in user into meetup.
